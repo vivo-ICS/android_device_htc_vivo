@@ -294,6 +294,10 @@ PRODUCT_COPY_FILES += \
     device/htc/vivo/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     device/htc/vivo/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so
 
+# Softkey Rotation Script
+PRODUCT_COPY_FILES += \
+    device/htc/vivo/rotate_lights.sh:/system/etc/rotate_lights.sh
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT="htc_wwe/htc_vivo/vivo:2.3.5/GRJ90/197817.3:user/release-keys" \
 BUILD_TYPE="userdebug"
